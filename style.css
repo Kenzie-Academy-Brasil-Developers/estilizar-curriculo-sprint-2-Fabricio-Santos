@@ -1,27 +1,92 @@
+body {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  background-color: #f3f3f3;
+}
 .clear {
-	clear: both;
+  clear: both;
 }
 
 #headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 30%;
+}
+img {
+  border-radius: 50%;
+  margin-left: 100%;
+}
+h1 {
+  color: #cf8a05;
+  text-align: end;
+  font-style: italic;
+}
+.h1name {
+  color: black;
+  font: bold;
+  font-style: none;
+}
+.h2name {
+  color: black;
 }
 
-#name {
-	float: left;
+.name {
+  float: left;
+
+  width: 12, 5%;
+  text-align: center;
+  margin-left: 10%;
+}
+.mainDetails {
+  text-align: center;
+  border-bottom: 3px solid #cf8a05;
+  text-align: center;
 }
 
 #contactDetails {
-	float: right;
+  float: right;
+  margin-right: 5%;
+  color: #181818;
 }
 
 .sectionTitle {
-	float: left;
-	width: 25%;
+  float: left;
+  width: 25%;
 }
 
 .sectionContent {
-	float: right;
-	width: 72.5%;
+  float: right;
+  width: 70%;
+
+  height: 30%;
+  text-align: justify;
+}
+h2 {
+  font-family: Arial;
+  color: #444444;
+}
+#mainArea {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+section {
+  border-bottom: 1px solid #dedede;
+}
+.keySkills {
+  column-count: 3;
+}
+p {
+  text-align: left;
+}
+#cv {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+a {
+  text-decoration: none;
+  color: #181818;
+}
+ul {
+  list-style: none;
 }
